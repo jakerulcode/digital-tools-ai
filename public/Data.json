@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes in minutes.\nOptimized for ATS systems.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/PG8zTbv3/image.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality content instantly.\nPerfect for blogs and marketing.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Blog generation", "SEO optimization", "Multiple tones"],
+    "icon": "https://i.ibb.co.com/FqKqs1jL/image.png"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Plan and schedule posts easily.\nGrow your audience faster.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Auto scheduling", "Analytics", "Multi-platform support"],
+    "icon": "https://i.ibb.co.com/4wt72qb1/image.png"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker AI",
+    "description": "Design stunning logos quickly.\nNo design skills needed.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI logo generation", "High-res export", "Custom colors"],
+    "icon": "https://i.ibb.co.com/0VJBLkqk/image.png"
+  },
+  {
+    "id": 5,
+    "name": "Website Builder",
+    "description": "Build responsive websites easily.\nDrag and drop editor included.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop", "Templates", "Hosting included"],
+    "icon": "https://i.ibb.co.com/JjCQGxFz/image.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Tool",
+    "description": "Send and manage campaigns.\nBoost engagement effortlessly.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Automation", "Templates", "Analytics"],
+    "icon": "https://i.ibb.co.com/JFH3F389/image.png"
+  },
+  {
+    "id": 7,
+    "name": "Video Editor Pro",
+    "description": "Edit videos like a pro.\nFast and easy workflow.",
+    "price": 30,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["4K export", "Transitions", "Audio tools"],
+    "icon": "https://i.ibb.co.com/4gZT73Vj/image.png"
+  },
+  {
+    "id": 8,
+    "name": "Task Manager AI",
+    "description": "Organize tasks efficiently.\nStay productive every day.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI suggestions", "Reminders", "Team collaboration"],
+    "icon": "https://i.ibb.co.com/Dg50sS67/image.png"
+  }
+]
