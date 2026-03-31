@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Features from './Features';
 
-const DigiCard = ({product}) => {
+const DigiCard = ({product ,carts , setCarts}) => {
     const badgeStyles = {
     popular: "bg-[#E1E7FF] text-[#9514FA]",
     "best seller": "bg-[#FEF3C6] text-[#BB4D00]",
@@ -12,6 +12,8 @@ const DigiCard = ({product}) => {
 
     const buyNowHandle = ()=>{
         setIsBuy(true)
+
+        setCarts([...carts, product])
     }
     return (
          <div className="p-5 bg-base-100 shadow-2xl rounded-xl space-y-2.5

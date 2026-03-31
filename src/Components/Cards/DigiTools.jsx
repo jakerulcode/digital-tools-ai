@@ -2,7 +2,7 @@ import React, { use } from "react";
 import Features from "./Features";
 import DigiCard from "./DigiCard";
 
-const DigiTools = ({ dataPromise }) => {
+const DigiTools = ({ dataPromise, carts, setCarts }) => {
   const products = use(dataPromise);
 
   
@@ -23,28 +23,13 @@ const DigiTools = ({ dataPromise }) => {
           designedto boost your productivity and creativity.
         </p>
 
-        {/* name of each tab group should be unique */}
-        <div className="tabs tabs-box justify-center ">
-          <input
-            type="radio"
-            name="my_tabs_1"
-            className="tab"
-            aria-label="Products"
-            defaultChecked
-          />
-          <input
-            type="radio"
-            name="my_tabs_1"
-            className="tab"
-            aria-label="Cart (2)"
-          />
-        </div>
+      
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
         {products.map((product) => {
           return (
-           <DigiCard product={product} key={product.id}/>
+           <DigiCard product={product} key={product.id} carts={carts} setCarts={setCarts}/>
           );
         })}
       </div>

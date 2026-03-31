@@ -5,7 +5,7 @@ const Features = ({feature}) => {
 
     
 
-    console.log(feature)
+    // console.log(feature)
     return (
         
             <p className='flex gap-1.5 items-center text-[#627382]'><span className='text-success'><Check /></span>{feature}</p>
