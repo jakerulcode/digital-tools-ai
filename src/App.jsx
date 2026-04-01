@@ -9,6 +9,7 @@ import Navbar from './Components/Navbar/Navbar'
 import PricingCard from './Components/PricingCard'
 import DigiTools from './Components/Cards/DigiTools'
 import Cart from './Components/Cart/Cart'
+import { ToastContainer } from 'react-toastify'
 
 const dataPromise = fetch('/Data.json').then(res=>res.json())
 
@@ -50,6 +51,7 @@ function App() {
     <GetStart/>
     <PricingCard/>
     <Footer/>
+    <ToastContainer />
     
     </>
   )

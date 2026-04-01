@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Features from './Features';
+import { toast } from 'react-toastify';
 
 const DigiCard = ({product ,carts , setCarts}) => {
     const badgeStyles = {
@@ -14,6 +15,7 @@ const DigiCard = ({product ,carts , setCarts}) => {
         setIsBuy(true)
 
         setCarts([...carts, product])
+        toast.success(`${product.name} added to cart`)
     }
     return (
          <div className="p-5 bg-base-100 shadow-2xl rounded-xl space-y-2.5
