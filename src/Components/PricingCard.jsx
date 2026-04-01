@@ -12,7 +12,7 @@ const PricingCard = () => {
         </div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 justify-between gap-7.5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-7.5">
 
           {/* Card-1 */}
         <div className="p-5 bg-base-100 shadow-2xl rounded-xl">
@@ -49,7 +49,9 @@ const PricingCard = () => {
 
 
         {/* card-2 */}
-         <div className="p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-2xl rounded-xl text-white">
+         <div className="p-5 relative bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-2xl rounded-xl text-white">
+
+          <div className="px-3 py-1.5 bg-[#FEF3C6] text-[#BB4D00] text-xs font-semibold rounded-full absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">Most Popular</div>
 
             <h2 className="font-bold text-2xl">Pro</h2>
             <p className="text-white">Best for professionals</p>
